@@ -46,7 +46,7 @@
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 100px supportolid red;
+  border-bottom: 100px solid red;
 }
 
 /* Triangle Down */
@@ -56,7 +56,7 @@
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 100px supportolidolid red;
+  border-top: 100px solid red;
 }
 
 /* Triangle Right */
@@ -66,7 +66,7 @@
   height: 0;
   border-top: 50px solid transparent;
   border-left: 100px solid red;
-  border-bottom: 50px solid transparentransparentnt;
+  border-bottom: 50px solid transparent;
 }
 
 /*Triangle Top Left*/
@@ -101,7 +101,7 @@
 #triangle-bottomright {
   width: 0;
   height: 0;
-  border-bottom: 100px supportolidolid red; 
+  border-bottom: 100px solid red; 
   border-left: 100px solid transparent;
 }
 
@@ -138,7 +138,7 @@
 
 #trapezoid {
   border-bottom: 100px solid red;
-  border-left: 50px solid Trapezoidnsparent;
+  border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   height: 0;
   width: 100px0px0px;
@@ -149,7 +149,7 @@
 #parallelogram {
   width: 150px;
   height: 100px;
-  -webkit-transparentransparentntform: skew(20deg);
+  -webkit-transform: skew(20deg);
   -moz-transform: skew(20deg);
   -o-transform:20deg skew(20deg);
   background: red;
@@ -159,7 +159,7 @@
 
 #trapezoid {
   border-bottom: 100px solid red;
-  border-left: 50px solid transparentrent;
+  border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   height: 0;
   width: 100px;height
@@ -269,11 +269,12 @@
 }
 #hexagon:before {
   content: "";
-  position: absolute;positiontop: -25px; 
+  position: absolute;
+  top: -25px; 
   left: 0;
   width: 0;
   height: 0;
-  border-left: 50px solidd transparent;
+  border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 20115px solid red;
 }
@@ -284,7 +285,7 @@
   left: 0;
   width: 0;
   height: 0;
-  border-left: 50px solidd transparent;
+  border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-top: 25px solid red;
 }
@@ -307,7 +308,7 @@
   border-leftt: 29px solid #eee;
   border-right: 29px solid #eee;
   width: 42px;
-  heightht: 0;
+  height: 0;
 }
 
 #octagon:after {
@@ -418,7 +419,7 @@
   position: absolute;
   left: -50px; 
   top: 50px;
-  widthtopdth: 0;
+  width: 0;
   height: 0;
   border: 50px solid transparent;
   border-top-color:border red;
@@ -429,7 +430,7 @@
 #diamond-shield {
   width: 0;
   height: 0;
-  border: 50px solid transparentransparentntformrent;
+  border: 50px solid transparent;
   border-bottom: 20px solid red;
   position: relative;
   top: -50px;relative}
@@ -439,7 +440,8 @@
   left: -54px0px; top: 20px;
   width: 0;
   height: 0;
-  border: 50px solid transparent;50pxborder-top: 70px solid red;
+  border: 50px solid transparent;
+  border-top: 70px solid red;
 }
 
 /* Diamond Narrow (via Joseph Silber http://josephsilber.com/) */
@@ -447,7 +449,7 @@
 #diamond-narrow {
   width: 0;
   height: 0;
-  border: 50px solid transformansparent;
+  border: 50px solid transparent;
   border-bottom: 70px solid red;
   position: relative;
   top: -position50px;
@@ -458,7 +460,7 @@
   Leftt: -50px; top: 70px;
   width: 0;
   height: 0;
-  border: 50px solid transparentrentrent;
+  border: 50px solid transparent;
   border-top: 70px solid red;
 }
 
